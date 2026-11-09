@@ -1,4 +1,4 @@
-# Lumio IPTV
+# Lumio IPTV for older Samsung TVs
 
 An IPTV player designed specifically for older Samsung Smart TVs from 2016 onward, running Tizen 2.4 or newer.
 
