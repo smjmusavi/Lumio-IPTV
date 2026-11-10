@@ -6,7 +6,7 @@ Lumio IPTV brings live television, programme guides, movies and series to your S
 
 ## Compatibility
 
-- Samsung Smart TVs from 2016 onward (Try older TVs at your own risk).
+- Samsung Smart TVs from 2016 onward (Older devices are not tested but might work.).
 - Tizen 2.4 or newer.
 - Navigation using a Samsung TV remote.
 
@@ -21,6 +21,32 @@ This is the application's intended compatibility range. Actual performance and p
 - Movies and series browsing.
 - Saved playback progress for on-demand content.
 - Configurable interface and playback settings.
+
+## Playback Controls, Multiple Sources & EPG Timeline
+
+- **Playback arrow shortcuts:** During live playback, press **Up** for the information bar, **Down** for playback controls, **Left** for the channel list, and **Right** for programme details.
+
+- **Multiple sources and quality selection:** Keep alternative streams together under one channel instead of showing each as a separate channel.
+
+  To use source grouping, first organise your playlist using an online playlist editor such as **[m3u4u.com](https://m3u4u.com/)**. Put the alternative streams in the **same group**, give them the **same base channel name**, and use recognised suffixes—for example:
+
+  | Playlist entry | Stream URL |
+  |---|---|
+  | `Example TV` | Main stream |
+  | `Example TV HD` | Alternative HD stream |
+  | `Example TV FHD` | Alternative Full HD stream |
+  | `Example TV SD` | Alternative SD stream |
+  | `Example TV +1` | One-hour-delayed stream |
+  | `Example TV PS` | Public stream |
+  | `Example TV PS1` | Another public stream |
+
+  Each entry should contain its corresponding stream URL. Keep the base name identical and use each suffix only once within that group.
+
+  Save your changes, obtain the **edited playlist’s output URL**, and add that link to Lumio IPTV. The app combines these entries into a single **Example TV** channel. During playback, open **Channel sources** to choose an alternative stream.
+
+  **Video quality selection is separate:** supported adaptive HLS links expose multiple resolutions within one stream. For those links, choose **Auto** or an available fixed quality. Lumio can remember your source and quality choices.
+
+- **EPG timeline:** Browse programme schedules across channels, view descriptions and broadcast times, and explore earlier and upcoming programmes.
 
 ## Download
 
